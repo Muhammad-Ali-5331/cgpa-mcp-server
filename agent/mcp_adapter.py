@@ -3,7 +3,7 @@ from langchain_core.tools import StructuredTool
 
 
 class MCPAdapter:
-    def __init__(self, target, auth=None, timeout: float = 15):
+    def __init__(self, target, auth=None, timeout: float = 45):
         self.target = target
         self.auth = auth
         self.timeout = timeout
